@@ -62,9 +62,6 @@ if __name__ == '__main__':
     })
 
     asyncio.run(router0.to_node())
-    asyncio.run(router1.to_node())
-    asyncio.run(router2.to_node())
-    asyncio.run(router3.to_node())
 
     print(f'router 0 distance vector: {router0.dv}')
     print(f'router 1 distance vector: {router1.dv}')
